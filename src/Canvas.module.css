@@ -1,0 +1,15 @@
+.canvasContainer {
+  position: relative;
+  border: 1px solid #999;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.canvasSvg {
+  display: block;
+}
